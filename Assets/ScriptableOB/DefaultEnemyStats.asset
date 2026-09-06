@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e162d1538db92468d39915f2d83219, type: 3}
+  m_Name: DefaultEnemyStats
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  rotationSpeed: 720
+  topSpeed: 4
+  walkAnimName: "\u5F00\u59CB\u884C\u8D70"
+  runAnimName: "\u5F00\u59CB\u8DD1\u6B65"
+  idleToAFKTime: 5
+  afkToIdleTime: 3
+  detectRadius: 12
+  attackRange: 2.5
+  attackCooldownMin: 1
+  attackCooldownMax: 3
+  normalName:
+  - Goblin_Ani_Attack_01
+  - Goblin_Ani_Attack_02
+  - Goblin_Ani_Attack_03
+  - Goblin_Ani_Attack_04
+  attackHitWindowStart: 0.25
+  attackHitWindowEnd: 0.8
+  hitRangeScale: 1.4
+  hitAngle: 75
+  attackDamageMinRatio: 0.1
+  attackDamageMaxRatio: 0.5
+  hitAnimName: Goblin_Ani_Hit_L_Front
+  stunAnimName: Goblin_Ani_Debuff_Stun_Loop
+  deathAnimName: Goblin_Ani_Death_Stay
+  maxDaze: 500
+  dazeGainRatio: 1.5
+  dazeDecayDelay: 3
+  dazeDecayPerSecond: 10
+  stunHoldTime: 4
+  Hp: 1000
+  Attack: 0.2
+  TanFan: 100

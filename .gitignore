@@ -1,0 +1,61 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Uu]IElementsSchema/
+[Pp]rofiler[Cc]aptures/
+[Mm]emoryCaptures/
+
+# IDE / solution files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local / personal
+.private/
+
+# ============================================================
+# 公开仓库不收录的大体积 / 第三方素材
+# ============================================================
+
+# 角色模型与动画（约 3GB，未收录）
+Assets/FBX/
+Assets/FBX(monster)/
+
+# 第三方特效包：仅保留战斗代码依赖的雾效脚本
+Assets/Hovl Studio/*
+!Assets/Hovl Studio/渲染资源/
+Assets/Hovl Studio/渲染资源/*
+!Assets/Hovl Studio/渲染资源/Fog/
+
+# 怪物贴图素材
+Assets/TBX/
+
+# 官方角色立绘 / 抽卡素材（不随公开仓库分发）
+Assets/Script/BattleSystems/Resources/抽卡素材/
+Assets/Script/BattleSystems/Resources/QtePortraits/
+
+# Wallpaper 预览工程：仅保留界面使用的中文字体源文件
+Assets/ZZZWallpaper/*
+!Assets/ZZZWallpaper/Fonts/
+Assets/ZZZWallpaper/Fonts/萝莉体 SDF.asset
+Assets/ZZZWallpaper/Fonts/萝莉体 SDF.asset.meta
+
+# 崩溃恢复残留
+Assets/_Recovery/
+
+# 独立预览场景（引用未收录的字体/素材）
+Assets/Scenes/ZZZWallpaper.unity
+Assets/Scenes/ZZZWallpaper.unity.meta
